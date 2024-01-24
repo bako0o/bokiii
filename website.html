@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <title>Personal Protfilio #04 | ASMRProg</title>
+<meta charset="UTF-8">
+    <title>Projects Page</title>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+
+      <div class="navibar">
+            <h2>AsmrProg</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#My-Skills-section">Skills</a></li>
+                <li><a href="#">Portofolio</a></li>
+               <li class="contact-item">
+            <a href="#">Contact</a>
+            <span class="contact-details">
+                <a href="tel:+355694684205">069 468 4205</a>
+                <a href="https://www.instagram.com/kristi.bakollari" target="_blank">@kristi.bakollari</a>
+            </span>
+              <li><a href="#who-i-am-section">About</a></li>
+            </ul>
+
+<script>
+const contactItem = document.querySelector('.contact-item');
+
+contactItem.addEventListener('mouseenter', function() {
+    const contactDetails = document.querySelector('.contact-details');
+    contactDetails.classList.toggle('show');
+});
+
+contactItem.addEventListener('mouseleave', function() {
+    const contactDetails = document.querySelector('.contact-details');
+    contactDetails.classList.toggle('show');
+});
+</script>
+
+            <button class="hire-btn">Hire Me</button>
+        </div>
+
+
+
+
+       <div class="main">
+        <h4>Hi, I  Am <span>AsmrProg</span></h4>
+        <p class="title">Creative Fullstack Web Developer</p>
+        <p class="subtitle">I'm Design And Code Beautifully Simple  Things And  I Love What I Do!</p>
+        <button class="btn" id="getStartedBtn">Get Started</button>
+        <img src="glob.webp">
+    </div>
+
+  <div class="projects-page" id="projectsPage" style="display: none;">
+        <!-- Butoni për mbylljen e faqes -->
+        <button class="close-btn" id="closeBtn"><i class="fas fa-times"></i></button>
+        <h2>Our Projects</h2>
+        <p>Here are the types of projects we work on:</p>
+        <ul>
+            <li>Web Development</li>
+            <li>Mobile App Development</li>
+            <li>UI/UX Design</li>
+        </ul>
+        <p>Contact us to know more about our projects and pricing!</p>
+    </div>
+
+    <script>
+        // Event listener për hapjen e faqes së projekteve
+        document.getElementById('getStartedBtn').addEventListener('click', function() {
+            document.getElementById('projectsPage').style.display = 'block';
+        });
+
+        // Event listener për mbylljen e faqes së projekteve
+        document.getElementById('closeBtn').addEventListener('click', function() {
+            document.getElementById('projectsPage').style.display = 'none';
+        });
+    </script>
+
+
+
+
+
+
+
+        <div class="guarantee">
+            <div class="item">
+                <div class="icon">
+                    <i class='bx bx-check-shield'></i>
+                 </div>
+                <div class="info">
+                    <h3>+5</h3>
+                    <p>Years Of Experience</p>
+                </div>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class='bx bx-check-circle'></i>
+                 </div>
+                <div class="info">
+                    <h3>+100</h3>
+                    <p>Completet Project</p>
+                </div>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class='bx bx-laugh'></i>
+                 </div>
+                <div class="info">
+                    <h3>+50</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+        </div>
+<h5 class="seprtor">
+    Who I Am
+    <h5 id="who-i-am-section" class="seprtor"></h5>
+</h5>
+
+
+      <div class="about">
+    <img src="travis.webp">
+    <div class="info">
+        <h3>About Me</h3>
+        <p>"Hello, I'm AsmrProg, also known as Travis, a Creative Fullstack Web Developer. With a passion for innovation and a comprehensive skill set, I bring creativity and technical expertise to every project. My proficiency in both front-end and back-end technologies allows me to craft seamless and visually appealing user experiences. </p>
+        <button class="hire-btn" id="hireMeBtn">Hire Me</button>
+    </div>
+</div>
+
+
+ <div class="orange-rectangle">
+    <div class="content">
+      <h3>Additional Information</h3>
+      <p>On the front end, I excel in utilizing HTML, CSS, and JavaScript to bring designs to life, ensuring a responsive and engaging interface. My creativity extends to the design process, where I focus on user-centric solutions and eye-catching visuals.
+
+On the back end, I am proficient in server-side languages such as Node.js and Python, and I leverage databases like MongoDB and MySQL to create robust and scalable web applications. My expertise also includes working with frameworks such as React and Express to build dynamic and efficient web solutions.
+
+As a Fullstack Developer, I am adept at integrating various technologies to deliver end-to-end solutions. Whether it's optimizing database performance, implementing RESTful APIs, or ensuring cross-browser compatibility, I am committed to delivering high-quality, feature-rich web applications..</p>
+      <button class="back-btn" id="goBackBtn">Go Back</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('goBackBtn').addEventListener('click', function() {
+      document.querySelector('.about').style.display = 'flex';
+      document.querySelector('.orange-rectangle').style.display = 'none';
+    });
+
+    document.getElementById('hireMeBtn').addEventListener('click', function() {
+      document.querySelector('.about').style.display = 'none';
+      document.querySelector('.orange-rectangle').style.display = 'block';
+    });
+  </script>
+
+
+
+            </div>
+        </div>
+ <br><br><br><br>
+        <h5 class="seprtor">
+My Skills
+<h5 id="My-Skills-section" class="seprtor"></h5>
+</h5>
+        <div class="skills">
+            <div class="left">
+                <div class="info">
+                    <h3>What My Programing skills include?</h3>
+                    <p>
+                       "I develop simple, intuitive, and responsible user interfaces that assist users in accomplishing tasks with minimal effort and time, utilizing various technologies.".
+                    </p>
+                </div>
+                <button class="hire-btn">Hire Me</button>
+            </div>
+
+            <div class="right">
+                <div class="item">
+                    <i class='bx bxl-html5'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-css3'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-typescript'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-git'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-bootstrap'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-php'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-sass'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-tailwind-css'></i>
+                </div>
+                <div class="item">
+                    <i class='bx-mongodb'></i>
+                </div>
+                </div>
+                <div class="item">
+                    <i class='bx-graphql'></i>
+                 </div>
+                </div><div class="item">
+                    <i class='bx-jquery'></i>
+                 </div>
+                </div><div class="item">
+                     <i class='bx-angular'></i>
+                </div>
+            </div>
+
+        </div>
+
+        <br><br><br><br>
+
+
+
+
+  <footer>
+    <div class="start">
+      <h3>Start a project</h3>
+      <button id="startButton">Let's do this</button>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Project Details</h2>
+      <p>Here you can add project details or images.</p>
+      <input type="file" id="fileInput" accept="image/*"> <!-- Input-i për zgjedhjen e fotos -->
+      <img id="previewImage" src="#" alt="Preview" style="display: none; max-width: 100%;"> <!-- Imazhi i paraprakët që do të shfaqet -->
+       <label for="projectDetails">Project Details:</label><br>
+    <textarea id="projectDetails" cols="24" rows="2"></textarea> <!-- Tekstuali për të dhënat e projektit -->
+  </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script>
+    var fileInput = document.getElementById('fileInput');
+    var previewImage = document.getElementById('previewImage');
+    var modal = document.getElementById('projectModal');
+    var closeButton = document.getElementById('closeModal');
+    var startButton = document.getElementById('startButton');
+
+    startButton.addEventListener('click', function() {
+      modal.style.display = 'block';
+    });
+
+    closeButton.addEventListener('click', function() {
+      modal.style.display = 'none';
+    });
+
+    fileInput.addEventListener('change', function(event) {
+      var file = event.target.files[0];
+      if (file) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          previewImage.style.display = 'block';
+          previewImage.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    window.addEventListener('click', function(event) {
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    });
+  </script>
+
+<br><br>
+
+
+
+
+
+
+        <footer>
+           
+
+            <div class="cols">
+                <div class="about-col">
+                    <h3>AsmrProg.</h3>
+                    <p>Creative  FullStacks Developer</p>
+                </div>
+
+                <div class="links-col">
+                    <h4>Useful Links</h4>
+                    <a href="#">About</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Portofolio</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="links-col">
+                    <h4>Social Media</h4>
+                     <a href="https://www.instagram.com/kristi.bakollari" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                    <a href="https://dribbble.com/" target="_blank">Dribble</a>
+                    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                    <a href="https://github.com/" target="_blank">Github</a>
+                </div>
+
+
+<div class="news-col">
+    <h4>NewsLetter</h4>
+    <p>Enter your email and get notified about news</p>
+
+    <form id="newsletterForm">
+        <input type="email" id="emailInput" placeholder="Your email address">
+        <button type="submit"><i class='bx bxl-telegram'></i></button>
+    </form>
+</div>
+
+<script>
+ document.getElementById('newsletterForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Parandalon dërgimin e formës
+
+    // Merr input-in e email-it
+    var email = document.getElementById('emailInput').value;
+
+    // Këtu mund të bëni diçka me email-in, si t'i dërgoni në server për të ruajtur
+    console.log('Email entered:', email);
+
+    // Pastaj, mund të bëni diçka për t'u siguruar që email-i është ruajtur, si shfaqja e një njoftimi për përdoruesin
+    alert('Thank you for subscribing!');
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Lidhja e event listener për butonin "Go Back"
+  document.getElementById('goBackBtn').addEventListener('click', function() {
+    document.querySelector('.about').style.display = 'flex';
+    document.querySelector('.orange-rectangle').style.display = 'none';
+    // Ruajtja e gjendjes së elementit në localStorage
+    localStorage.setItem('displayState', 'flex');
+  });
+
+  // Lidhja e event listener për butonin "Hire Me"
+  document.getElementById('hireMeBtn').addEventListener('click', function() {
+    document.querySelector('.about').style.display = 'none';
+    document.querySelector('.orange-rectangle').style.display = 'block';
+    // Ruajtja e gjendjes së elementit në localStorage
+    localStorage.setItem('displayState', 'none');
+  });
+
+  // Kontrolli i gjendjes së elementeve pas rifreskimit të faqes
+  const savedDisplayState = localStorage.getItem('displayState');
+  if (savedDisplayState === 'flex') {
+    document.querySelector('.about').style.display = 'flex';
+    document.querySelector('.orange-rectangle').style.display = 'none';
+  } else {
+    document.querySelector('.about').style.display = 'none';
+    document.querySelector('.orange-rectangle').style.display = 'block';
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </form>
+        
+
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+    </body>
+
+    <style css>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        /* Resetimi i stilimit për të hequr stilizimet parazgjedhur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Stili për body */
+body {
+    height: 100vh;
+    background: #212529;
+}
+
+
+
+/* Stili për navbar */
+.navibar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navibar h2 {
+    color: #4715a3;
+    font-weight: 600;
+}
+
+.navibar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.navibar ul li {
+    list-style: none;
+}
+
+.navibar ul li:last-child {
+    margin-left: auto;
+}
+
+.navibar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navibar ul li:hover a {
+    color: #5c3d86;
+}
+
+/* Stili për butonin Hire Me */
+.hire-btn {
+    background: #541887;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover {
+    background: #7808c2;
+}
+
+/* Stili për seksionin kryesor */
+.main {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h4 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main h4 span {
+    color: #7f33b9;
+    text-decoration: underline;
+}
+
+.main p.title {
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.main p.subtitle {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.main img {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+/* Stili për divin e garancive */
+.guarantee {
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.guarantee .item {
+    background: #62137615;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.guarantee .item:hover {
+    border-color: #a52cdd;
+}
+
+.guarantee .item .icon {
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.guarantee .item:hover .icon {
+    background-color: #d3c8ef;
+}
+
+.guarantee .item .icon i {
+    font-size: 30px;
+}
+
+.guarantee .item .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guarantee .item .info h3 {
+    color: #9a23ea;
+    font-size: 28px;
+}
+
+.guarantee .item .info p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.guarantee .item > i {
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.guarantee .item:hover > i {
+    color: #be872e;
+}
+
+/* Stili për elementin .seprtor */
+.seprtor {
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.08);
+    display: inline-block;
+    color: #742886;
+    border-radius: 12px;
+}
+
+        .about{
+            display: flex;
+            justify-content: space-between;   
+            gap: 80px;
+            padding: 0 50px; 
+        }
+
+        .about img{
+            width: 400px;
+        }
+        .about .info h3{
+            color: #fff;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .about .info p{
+            color: #ccc;
+            font-size: 14px;
+        }
+        .about .info button{
+            margin-top: 30px;
+        }
+        .skills{
+            display: flex;
+            justify-content: space-around;
+            padding: 0 50px;
+        }
+        .skills .left{
+            width: 680px;
+        }
+
+        .skills .left .info h3{
+            color: #fff;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .skills .left .info p{
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        .skills .left button{
+            margin-top: 30px;
+        }
+
+        .skills .right{
+            width: 420px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills .right .item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #cf8225;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        } 
+
+        .skills .right .item i{
+            font-size: 34px;
+            color: #fff;
+        }
+
+        .footer {
+            position: relative;
+            background: #5e2088; /* Kjo është vlera e saktë e ngjyrës së zi */
+            padding: 80px 50px 40px;
+            max-height: 100px;
+        }
+
+
+
+        footer .start{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            background-color: #7c2db9;
+            padding: 30px 25px;
+            border-radius: 15px;
+            width: 70%;
+            top: -16%;
+            left: 15%;
+        }
+
+        footer .start p{
+            font-size: 13px;
+            width: 35px;
+        }
+
+        footer .start button{
+            background: transparent;
+            border: 1px solid #000;
+            cursor: pointer;
+            padding: 8px 20px;
+            border-radius: 100px;
+            transition: all 0,3s ease;
+        }
+
+        footer .start button:hover{
+            background-color: #fff;
+            border-color: #fff;
+        }
+
+        footer .cols{
+            display: flex;
+            align-items: start;
+        }
+
+        footer .cols .about-col{
+            flex: 3;
+        }
+
+        footer .cols .about-col h3{
+            color: #ffb742;
+            margin-bottom: 20px;
+        }
+
+        footer .cols .about-col p{
+            color: #ccc;
+            font-size: 13px;
+        }
+
+        footer .cols .links-col{
+            flex: 3;
+        }
+
+        footer .cols .links-col h4, footer .cols .news-col h4{
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        footer .cols .link-col a{
+            display: block;
+            text-decoration: none;
+            color: #7b7b7b;
+            font-size: 14px;
+            line-height: 26px;
+            transition: color 0.3s ease;
+        }
+
+        footer .cols .link-col a:hover{
+            color: #ffb742;
+        }
+
+        footer .cols .news-col{
+            flex: 3;
+        }
+
+        footer .cols .news-col p{
+            color: #7b7b7b;
+            font-size: 15px;
+        }
+
+        footer.cols .news-col form{
+            width: 100%;
+            margin-top: 20px;
+            position: relative;
+        }
+
+
+        footer .cols .news-col form input{
+            width: 100%;
+            background: #b0b4b8;
+            border: none;
+            padding: 13px;
+            border-radius: 100px;
+            font-weight: 400;
+            font-size: 13px;
+        }
+
+
+        footer .cols .news-col form {
+    position: relative; /* Shtoni pozicionin e formës në të njëjtën linjë me butonin */
+}
+
+footer .cols .news-col form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #ffb742;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Ruani këtë linjë vetëm nëse është e nevojshme të vendosni butonin absolutisht */
+    bottom: 0; /* Vendosni në fund të divit */
+    right: 0; /* Vendosni në anën e djathtë të divit */
+}
+
+footer .cols .news-col form button:hover {
+    background-color: #fb8c00;
+}
+
+footer .cols .news-col form button i {
+    font-size: 26px;
+}
+
+/* Stili për elementin e numrit të kontaktit */
+.contact-number {
+    display: none; /* Fillimisht, numri i kontaktit është fshehur */
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff; /* Ngjyra e shkronjave */
+}
+
+/* Kur mausi kalon mbi elementin e kontaktit */
+.contact-item:hover .contact-number {
+    display: block; /* Shfaq numrin e kontaktit kur mausi kalon mbi opsionin Contact */
+}
+
+.contact-details {
+    display: none;
+}
+.contact-details.show {
+    display: block;
+}
+
+
+
+
+
+.main {
+    position: relative; /* Vendos pozicionin e div-it në të cilin është butoni */
+    overflow: hidden; /* Mos lejo butonin të shtrihet jashtë kufijve të div-it */
+}
+
+.main .btn {
+    position: absolute; /* Vendos butonin në pozicionin e përcaktuar */
+    top: 50%; /* Vendos butonin në mes të vertikalisht */
+    left: 50%; /* Vendos butonin në mes të horizontalisht */
+    transform: translate(-50%, -50%); /* Qendrimi i butonit në mes të div-it */
+    padding: 10px 20px; /* Hapësira e brendshme e butonit */
+    font-size: 16px; /* Madhësia e shkrimit */
+    background-color: #ffb742; /* Ngjyra e sfondit të butonit */
+    color: white; /* Ngjyra e tekstit në buton */
+    border: none; /* Hiq kufirin e butonit */
+    border-radius: 5px; /* Forma e butonit (rrumbullakëso këndet) */
+    cursor: pointer; /* Kursori ndryshohet në pointer */
+    transition: background-color 0.3s ease; /* Tranzicioni i ngjyrës së sfondit në hover */
+}
+
+.main .btn:hover {
+    background-color: #ff9900; /* Ndryshimi i ngjyrës së sfondit në hover */
+}
+
+
+
+
+
+
+        /* Stili për butonin "close" */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .close-btn i {
+            font-size: 20px;
+            color: #333;
+        }
+
+        /* Stilizimi bazë i faqes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            text-align: center;
+            padding: 20px;
+        }
+
+       /* Stilizimi i modalit */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.orange-rectangle {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: orange;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.content {
+  text-align: left;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.back-btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+ /* Stilizimi bazë i faqes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Stilizimi për faqen e projekteve */
+        .projects-page {
+            display: none; /* Nuk shfaqet fillimisht */
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            position: absolute;
+            top: 50%;
+            right: 50px; /* Vendosja e faqes në anën e djathtë */
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects-page h2 {
+            color: #333;
+        }
+
+        .projects-page ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects-page ul li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+
+
+
+
+
+
+
+
+
+
+/* Stilizimi për fushën e tekstit për detajet e projektit */
+textarea#projectDetails {
+  width: calc(40% - 10px);
+  padding: 8px;
+  border: 3px solid #333;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  resize: vertical;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  color: #333;
+}
+
+textarea#projectDetails:focus {
+  outline: none;
+  border-color: #333;
+  box-shadow: 0 0 6px rgba(255, 99, 80, 0.6);
+}
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width: 1100px){
+            .guarantee{
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .guarantee .item{
+                flex-basis: 49%;
+            }
+
+            .skills{
+                justify-content: space-between;
+                gap: 20px;
+            }
+
+            .skills .left{
+                width: 500px;
+            }
+
+            .skills .left .info h3{
+                font-size: 22px;
+            }
+
+            .skills .left .info p{
+                font-size: 12px;
+            }
+
+            .footer{
+                margin-top: 150px;
+            }
+
+            .footer .start{
+                width: 90%;
+                left: 5%;
+                top: -20%;
+            }
+
+            footer .cols{
+                flex-wrap: wrap;
+            }
+
+            .footer .cols .about-col{
+                flex-basis: 50%;
+            }
+
+            .footer .cols .link-col{
+                flex-basis: 50%;
+            }
+
+            .footer .cols .news-col{
+                flex-basis: 50%;
+            }
+
+
+        }
+
+
+        @media screen and (max-width:780px) {
+
+
+            .navibar button{
+                display: none;
+            }
+
+            .main h4{
+                font-size: 24px;
+            }
+
+            .main p.title{
+                font-size: 36px;
+            }
+
+            .main p.subtitle{
+                font-size: 14px;
+            }
+
+            .guarantee .item{
+                flex-basis: 100%;
+            }
+
+            .about{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+
+        @media screen and (max-width: 650px) {
+
+            .navbar{
+                justify-content: center;
+            }
+
+            .navbar h2{
+                display: none;
+            }
+
+            .navbar ul li a{
+                font-size: 14px;
+            }
+
+            .main{
+                margin-top: 50px;
+                height: 320px;
+                justify-content: start;
+            }
+
+            .main h4{
+                font-size: 20px;
+            }
+
+            .main p.title{
+                font-size: 28px;
+            }
+
+            .main p.subtitle{
+                font-size: 12px;
+            }
+
+            .main img{
+                margin-top: 40px;
+                width: 150px;
+                height: 150px;
+            }
+
+            .skills{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .skills .right{
+                justify-content: space-between;
+            }
+
+            .skills .left .info h3{
+                font-size: 20px;
+            }
+            
+
+            .footer .start{
+                top: -8%;
+            }
+
+            .footer .startp{
+                display: none;
+            }
+
+            .footer .cols .about-col{
+                flex-basis: 100%;
+                margin-bottom: 40px;
+            }
+
+            .footer .cols .link-col{
+                flex-basis: 100%;
+                margin-bottom: 20px;
+            }
+
+            .footer .cols .news-col{
+                flex-basis: 100%;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .main p.title{
+                font-size: 18px;
+            }
+
+            .main p.subtitle{
+                font-size: 10px;
+            }
+
+            .guarantee .item .info h3{
+                font-size: 20px;
+            }
+
+            .guarantee .item .info p{
+                font-size: 12px;
+            }
+        }
+          
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  position: relative;
+  background:  #212529;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.start p {
+  margin-bottom: 20px;
+}
+
+.start button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffb742;
+  border: none;
+  border-radius: 5px;
+  color: #1c1c1c;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start button:hover {
+  background-color: #f39c12;
+}
+
+</style>
+
+
+
+
+</html>
+
+
+
+
+
